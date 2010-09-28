@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Links for {{package}}</title>
+    </head>
+    <body>
+        <h1>Deployed Versions of {{package}}</h1>
+        {% for f in files %}
+            {{f.filename}}<br />
+        {% endfor %}
+</body></html>

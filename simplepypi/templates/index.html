@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>Internal PYPI</title>
+    </head>
+    <body>
+        <h1>Packages In PYPI Repo</h1>
+        {% for package in packages %}
+        <a href='pypi/{{package}}/'>{{package}}</a><br/>
+        {% endfor %}
+    </body>
+</html>

@@ -1,0 +1,2 @@
+recursive-include simplepypi/templates *
+recursive-include simplepypi/static *

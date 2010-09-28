@@ -1,0 +1,14 @@
+package simplepypi;
+
+message Release {
+    required string package = 1;
+    required string md5 = 2;
+    required string version = 3;
+    required string filename = 4;
+    required string createdate = 5;
+    optional string summary = 6;
+    optional string description = 7;
+    optional string author = 8;
+    optional string author_email = 9;
+}
+
